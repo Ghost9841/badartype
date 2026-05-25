@@ -52,7 +52,7 @@ export function TypingArena() {
   }
 
   return (
-    <div className="relative w-full min-h-[60px]" onClick={focusInput}>
+    <div className="relative w-full min-h-15" onClick={focusInput}>
       <input
         ref={inputRef}
         type="text"

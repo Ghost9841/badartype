@@ -64,7 +64,7 @@ export default function HomePage() {
   }, [resetGame])
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-zinc-950 to-black text-zinc-100">
+    <main className="min-h-screen bg-linear-to-b from-zinc-950 to-black text-zinc-100">
       <div className="max-w-5xl mx-auto px-6">
         <Header />
         
